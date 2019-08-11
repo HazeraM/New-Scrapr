@@ -40,7 +40,7 @@ module.exports = (app) => {
     // scrape data then save to mongodb
     app.get('/scrape', (req, res) => {
         // get body of url
-        axios.get('http://www.bbc.com/sport/football')
+        axios.get('https://old.reddit.com/r/webdev/')
             .then((response) => {
                 // use cheerio for shorthand selector $
                 let $ = cheerio.load(response.data);
