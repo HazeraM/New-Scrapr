@@ -9,10 +9,18 @@
     <title>Scraping Reddit</title>
     <style>
         body {
-            background-color: rgb(195, 218, 233)
+            background-color: rgb(247, 247, 248)
         }
         
+        .container {
+            background-color: rgb(234, 236, 250);
+        }
+        /* h1 {
+            text-align: center;
+        } */
+        
         #wrapper {
+            text-align: center;
             width: 960px;
             margin-left: auto;
             margin-right: auto;
@@ -35,7 +43,7 @@
         input {
             display: block;
             width: 100%;
-            background-color: #FCF5C7;
+            background-color: rgb(223, 206, 222);
         }
         
         input {
@@ -100,10 +108,12 @@
         <div class="card-img-overlay">
             <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-    </div>
-    </div>
-    <h1>Scraping Reddit</h1>
-    <!-- <script>
+    <div class="container">
+        <!-- <img id="logo" src="assets/reddit2.png" alt="Card image"> -->
+        <div id="wrapper">
+            <h1>Scraping Reddit</h1>
+        </div>
+        <!-- <script>
   // AJAX post the data to the Mongo DB.
         $.post("/api/friends", userData, function(data) {
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
@@ -117,12 +127,13 @@
       }
     });
 </script> -->
-    <!-- <div id="wrapper"> -->
-    <h1>Latest Articles</h1>
-    <h2><i></i></h2>
-    <div id="articles"></div>
-    <div id="notes"></div>
+        <!-- <div id="wrapper"> -->
+        <h1>Latest Articles</h1>
+        <h2><i></i></h2>
+        <div id="articles"></div>
+        <div id="notes"></div>
     </div>
+    <!-- </div> -->
 
     <footer class="footer">
         <div class="container">
